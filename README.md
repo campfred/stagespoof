@@ -54,6 +54,6 @@ Simply make a Merge Request from your own fork with your changes and I'll check 
 ## Improvements wishlist
 
 * Error handling
-* Domain spoofing chaingin (giving more than one domain as argument and going through all of them one by one)
+* Domain spoofing chaining (giving more than one domain as argument and going through all of them one by one)
 * Proxy server setup argument
 * Detect proxy server setup on other OSes
