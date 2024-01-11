@@ -131,7 +131,6 @@ has_work_been_done=false
 is_backup_done=false
 spoof_entries=""
 show_title
-setup_proxy
 while [[ $# -gt 0 ]]; do
 	case $1 in
 	-r | --reset | -c | --clear | --clean)
@@ -154,6 +153,7 @@ while [[ $# -gt 0 ]]; do
 		fi
 		if [[ $is_backup_done == false ]]; then
 			backup_hosts
+			setup_proxy
 		fi
 		DOMAIN=$1
 		spoof_host $1
